@@ -357,7 +357,7 @@ article .icon {
 
 #projects {
   position: relative;
-  padding-top: 20vh;
+  padding-top: 5vh;
 }
 
 .color-container {
@@ -387,7 +387,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 90vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
