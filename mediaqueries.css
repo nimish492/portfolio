@@ -237,7 +237,7 @@
   }
 }
 
-@media screen and (max-width: 320x) {
+@media screen and (max-width: 320px) {
   .sub-column {
     flex-wrap: wrap;
     gap: 20.5rem;
