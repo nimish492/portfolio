@@ -273,13 +273,20 @@ section {
   margin-top: 2rem;
 }
 
+.about-containers-unique {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
 .about-containers,
-.about-details-container {
+.about-details-container,
+.about-containers-unique {
   display: flex;
 }
 
@@ -302,6 +309,7 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+
 
 .section-container {
   gap: 4rem;
@@ -362,7 +370,7 @@ article .icon {
 .sub-column {
   display: flex;
   flex-direction: row;
-  gap: 15rem;
+  gap: 5rem;
 }
 
 
@@ -410,6 +418,10 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.unique {
+  width: 20rem;
 }
 
 /* PROJECTS SECTION */
