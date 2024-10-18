@@ -233,11 +233,11 @@
   }
 
   embed {
-    width: 100%;
+    width: auto;
   }
 }
 
-@media screen and (max-width: 40px) {
+@media screen and (max-width: 320x) {
   .sub-column {
     flex-wrap: wrap;
     gap: 20.5rem;
@@ -249,11 +249,12 @@
 
   .detail-container {
     flex-wrap: wrap;
+    width: auto;
   }
 
   .heading3 {
     text-wrap: wrap;
-    width: 40vh;
+    width: auto;
   }
 
   .about-containers-unique {
@@ -265,7 +266,7 @@
   }
 
   embed {
-    width: 100%;
+    width: 100vh;
   }
 
 }
