@@ -343,11 +343,11 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 article {
@@ -376,9 +376,8 @@ article .icon {
 
 
 .heading3 {
-  width: 20rem;
+  width: 25rem;
   text-align: left;
-  text-wrap: wrap;
 
 }
 
@@ -407,8 +406,18 @@ article .icon {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
+
+}
+
+.article-container-skills {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
   justify-content: space-between;
 }
+
 
 article {
   display: flex;
